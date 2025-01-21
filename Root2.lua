@@ -4,7 +4,7 @@ wait(1)
 print("Checking stats...")
 if Player.UserId == 1920820023 or Player.UserId == 7418301208 then
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftminegun/Hub-custom-colour/main/Root2.lua"))()
-local Window = Library.CreateLib("Fallen | ADMIN", "Admin")
+local Window = Library.CreateLib("Fallen | ADMIN", "Fallen")
 
 -- Main
 local Main = Window:NewTab("Main")
@@ -243,7 +243,7 @@ end)
 
 elseif Player.UserId == 3220221340 then
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftminegun/Hub-custom-colour/main/Root2.lua"))()
-local Window = Library.CreateLib("OHTHIJCU | ADMIN", "Admin")
+local Window = Library.CreateLib("OHTHIJCU | ADMIN", "Fallen")
 
 -- Main
 local Main = Window:NewTab("Main")

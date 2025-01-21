@@ -191,6 +191,28 @@ GamesSection:NewButton("Aussie Wire - Driving Empire OP script", "Driving Empire
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4f5c7bbe546251d81e9d3554b109008f.lua"))()
 end)
 
+GamesSection:NewButton("REVENGE OF THE SLIMES!!! script", "REVENGE OF THE SLIMES!!! script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftminegun/REVENGE-OF-THE-SLIMES-/refs/heads/main/Root2.lua"))("")
+end)
+
+
+
+-- Hubs
+local Hubs = Window:NewTab("Hubs")
+local HubsSection = Hubs:NewSection("Hubs")
+
+HubsSection:NewButton("GhostHub", "GhostHub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
+
+HubsSection:NewButton("Roblox: Holf Hub", "Roblox: Holf Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Podroka626/Scripts/main/Universal"))() 
+end)
+
+HubsSection:NewButton("Roblox [Universal hub]", "Roblox [Universal hub]", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftminegun/lumber-unsecure/main/Root2.lua"))("") 
+end)
+
 
 -- Other
 local Other = Window:NewTab("Other")
@@ -406,6 +428,28 @@ end)
 
 GamesSection:NewButton("Aussie Wire - Driving Empire OP script", "Driving Empire script", function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4f5c7bbe546251d81e9d3554b109008f.lua"))()
+end)
+
+GamesSection:NewButton("REVENGE OF THE SLIMES!!! script", "REVENGE OF THE SLIMES!!! script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftminegun/REVENGE-OF-THE-SLIMES-/refs/heads/main/Root2.lua"))("")
+end)
+
+
+
+-- Hubs
+local Hubs = Window:NewTab("Hubs")
+local HubsSection = Hubs:NewSection("Hubs")
+
+HubsSection:NewButton("GhostHub", "GhostHub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
+
+HubsSection:NewButton("Roblox: Holf Hub", "Roblox: Holf Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Podroka626/Scripts/main/Universal"))() 
+end)
+
+HubsSection:NewButton("Roblox [Universal hub]", "Roblox [Universal hub]", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftminegun/lumber-unsecure/main/Root2.lua"))("") 
 end)
 
 
@@ -625,6 +669,28 @@ GamesSection:NewButton("Aussie Wire - Driving Empire OP script", "Driving Empire
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4f5c7bbe546251d81e9d3554b109008f.lua"))()
 end)
 
+GamesSection:NewButton("REVENGE OF THE SLIMES!!! script", "REVENGE OF THE SLIMES!!! script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftminegun/REVENGE-OF-THE-SLIMES-/refs/heads/main/Root2.lua"))("")
+end)
+
+
+
+-- Hubs
+local Hubs = Window:NewTab("Hubs")
+local HubsSection = Hubs:NewSection("Hubs")
+
+HubsSection:NewButton("GhostHub", "GhostHub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
+
+HubsSection:NewButton("Roblox: Holf Hub", "Roblox: Holf Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Podroka626/Scripts/main/Universal"))() 
+end)
+
+HubsSection:NewButton("Roblox [Universal hub]", "Roblox [Universal hub]", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftminegun/lumber-unsecure/main/Root2.lua"))("") 
+end)
+
 
 -- Other
 local Other = Window:NewTab("Other")
@@ -841,6 +907,27 @@ end)
 
 GamesSection:NewButton("Aussie Wire - Driving Empire OP script", "Driving Empire script", function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4f5c7bbe546251d81e9d3554b109008f.lua"))()
+end)
+
+GamesSection:NewButton("REVENGE OF THE SLIMES!!! script", "REVENGE OF THE SLIMES!!! script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftminegun/REVENGE-OF-THE-SLIMES-/refs/heads/main/Root2.lua"))("")
+end)
+
+
+-- Hubs
+local Hubs = Window:NewTab("Hubs")
+local HubsSection = Hubs:NewSection("Hubs")
+
+HubsSection:NewButton("GhostHub", "GhostHub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
+
+HubsSection:NewButton("Roblox: Holf Hub", "Roblox: Holf Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Podroka626/Scripts/main/Universal"))() 
+end)
+
+HubsSection:NewButton("Roblox [Universal hub]", "Roblox [Universal hub]", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftminegun/lumber-unsecure/main/Root2.lua"))("") 
 end)
 
 

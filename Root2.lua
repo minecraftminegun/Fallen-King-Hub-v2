@@ -959,7 +959,7 @@ OtherSection:NewButton("Credits to minecraft_minegun#0 (click for more info)", "
 end)
 print("* Haha you don't have admin permissions")
 wait(1)
-print("* Haha you're not Trusted Friends list")
+print("* Haha you're not in Trusted Friends list")
 wait(1)
 print("* Loaded as Default")
 end

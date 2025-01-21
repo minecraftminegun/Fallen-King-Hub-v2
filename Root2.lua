@@ -1,6 +1,7 @@
 print("Loading Fallen King's hub...")
 local Player = game.Players.LocalPlayer
 wait(1)
+print("Checking stats...")
 if Player.UserId == 1920820023 or Player.UserId == 7418301208 then
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftminegun/Hub-custom-colour/main/Root2.lua"))()
 local Window = Library.CreateLib("Fallen | ADMIN", "Admin")
@@ -468,6 +469,7 @@ end)
 OtherSection:NewButton("Universal Bypasser Dark Dex", "Universal Bypasser Dark Dex", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
 end)
+print("* Loaded as an Admin")
 
 
 -- Credits
@@ -477,7 +479,6 @@ local OtherSection = Other:NewSection("Credits")
 OtherSection:NewButton("Credits to minecraft_minegun#0 (click for more info)", "Discord Server Invite Link", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/minecraftminegun/discord-invite-link-string-setup/main/string%20setup'))() 
 end)
-
 
 elseif Player.UserId == 3253856586 or Player.UserId == 3209150305 or Player.UserId == 1460139225 then
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/minecraftminegun/Hub-custom-colour/main/Root2.lua"))()
@@ -716,6 +717,7 @@ local OtherSection = Other:NewSection("Credits")
 OtherSection:NewButton("Credits to minecraft_minegun#0 (click for more info)", "Discord Server Invite Link", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/minecraftminegun/discord-invite-link-string-setup/main/string%20setup'))() 
 end)
+print("* Loaded as a Trusted Friends")
 
 
 ---//NORMAL PLAYER SCRIPT\\---
@@ -955,6 +957,11 @@ local OtherSection = Other:NewSection("Credits")
 OtherSection:NewButton("Credits to minecraft_minegun#0 (click for more info)", "Discord Server Invite Link", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/minecraftminegun/discord-invite-link-string-setup/main/string%20setup'))() 
 end)
+print("* Haha you don't have admin permissions")
+wait(1)
+print("* Haha you're not Trusted Friends list")
+wait(1)
+print("* Loaded as Default")
 end
 
 wait(1)
